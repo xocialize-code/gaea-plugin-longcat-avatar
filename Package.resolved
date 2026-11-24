@@ -20,6 +20,24 @@
       }
     },
     {
+      "identity" : "gaea-plugin-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/xocialize-code/gaea-plugin-kit.git",
+      "state" : {
+        "revision" : "234ed30af93a9d7f894cc34cfc42e8ffc40d042c",
+        "version" : "0.16.0"
+      }
+    },
+    {
+      "identity" : "longcat-avatar-mlx-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/xocialize/longcat-avatar-mlx-swift.git",
+      "state" : {
+        "revision" : "b8c85d609305d878757bbc4ac3f3d3cf81bc5ccc",
+        "version" : "0.2.0"
+      }
+    },
+    {
       "identity" : "mlx-audio-dsp",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/xocialize/mlx-audio-dsp.git",
