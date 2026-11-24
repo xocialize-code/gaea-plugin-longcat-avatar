@@ -1,0 +1,42 @@
+[Prewarm] longcat-avatar-1.6: paged 11 file(s) / 37.6 GB into cache in 62.4s
+PASS manifest com.xocialize.gaea.longcat-avatar 0.1.0, sha256 a8aa46542fb0…
+PASS signature: Developer ID, team CFZS6RXUCP, id com.xocialize.gaea.longcat-avatar, hardened runtime, requirement `anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU] = "CFZS6RXUCP"` satisfied
+PASS launched gaea-longcat-avatar-worker with launchRequirement (team CFZS6RXUCP, developerID), pid 92691
+W {"engine":{"contract":"1.66.0","version":"0.82.1"},"kit":{"version":"0.16.0"},"manifest_sha256":"a8aa46542fb04553e0456c3a2bed79d76d3cd23b2d5cb4d2f36af3438fb98b31","models":["longcat-avatar-1.6"],"pid":92691,"plugin":{"id":"com.xocialize.gaea.longcat-avatar","version":"0.1.0"},"protocol":1,"type":"hello"}
+PASS hello after 422 ms
+PASS hello matches the verified manifest (plugin, models, engine, manifest_sha256)
+H {"budget":{"ceilingBytes":96000000000,"wiresWeights":false},"cache_root":"/var/folders/2t/n472rntx42g8s3bd3_xz7tg00000gn/T/gaea-plugin-check-326E3979-8E76-438E-AE1D-EFA3B02A4CD4/cache","id":"h1","models_root":"/Volumes/DEV_ARCHIVE/longcat-avatar-16/gaea-store","settings":{},"type":"configure"}
+W {"re":"h1","type":"configured"}
+H {"id":"h2","lane":"bf16","model":"longcat-avatar-1.6","type":"prepare"}
+W {"lane":"bf16","model":"longcat-avatar-1.6","re":"h2","seconds":64.663,"storage":{"protocol":"USB","read_bytes_per_s":250325394,"removable":false,"volume":"/Volumes/DEV_ARCHIVE"},"type":"prepared"}
+W {"report":{"availableBytes":36000000000,"budgetBytes":96000000000,"date":817228575.653174,"externalBytes":0,"externalTenants":{},"gpuActiveBytes":37580973306,"gpuCacheBytes":19912,"physFootprintBytes":37750451296,"residentBytes":36000000000,"residents":{"longcat-avatar-1.6":36000000000},"running":[],"transientReserveBytes":24000000000},"type":"memory"}
+PASS prepared longcat-avatar-1.6 lane bf16 in 64.66 s
+H {"id":"h3","inputs":{"first_frame":"/Volumes/Satechi/Development/gaea-plugin-longcat-avatar/Tests/Fixtures/presenter.png","prompt":"/var/folders/2t/n472rntx42g8s3bd3_xz7tg00000gn/T/gaea-plugin-check-326E3979-8E76-438E-AE1D-EFA3B02A4CD4/spool/job_check/in/prompt-0.txt","soundtrack":"/Volumes/Satechi/Development/gaea-plugin-longcat-avatar/Tests/Fixtures/speech.wav"},"job":"job_check","lane":"bf16","model":"longcat-avatar-1.6","operation":"video.generate","output_dir":"/var/folders/2t/n472rntx42g8s3bd3_xz7tg00000gn/T/gaea-plugin-check-326E3979-8E76-438E-AE1D-EFA3B02A4CD4/spool/job_check/out","params":{"duration_s":2},"seed":7,"type":"run"}
+W {"job":"job_check","re":"h3","stage":"plan","type":"progress"}
+W {"job":"job_check","re":"h3","stage":"encode","type":"progress"}
+W {"fraction":0.125,"job":"job_check","of":8,"re":"h3","stage":"denoise","step":1,"type":"progress"}
+W {"fraction":0.25,"job":"job_check","of":8,"re":"h3","stage":"denoise","step":2,"type":"progress"}
+W {"fraction":0.375,"job":"job_check","of":8,"re":"h3","stage":"denoise","step":3,"type":"progress"}
+W {"fraction":0.5,"job":"job_check","of":8,"re":"h3","stage":"denoise","step":4,"type":"progress"}
+W {"fraction":0.625,"job":"job_check","of":8,"re":"h3","stage":"denoise","step":5,"type":"progress"}
+W {"fraction":0.75,"job":"job_check","of":8,"re":"h3","stage":"denoise","step":6,"type":"progress"}
+W {"fraction":0.875,"job":"job_check","of":8,"re":"h3","stage":"denoise","step":7,"type":"progress"}
+W {"fraction":1,"job":"job_check","of":8,"re":"h3","stage":"denoise","step":8,"type":"progress"}
+W {"job":"job_check","re":"h3","stage":"postprocess","type":"progress"}
+W {"effective":{"duration_s":2,"fps":25,"frames":50,"seed":7,"size":{"height":512,"width":768}},"job":"job_check","outputs":[{"media_type":"video/mp4","name":"video","path":"/var/folders/2t/n472rntx42g8s3bd3_xz7tg00000gn/T/gaea-plugin-check-326E3979-8E76-438E-AE1D-EFA3B02A4CD4/spool/job_check/out/video-0.mp4"}],"re":"h3","seconds":272.466,"type":"result","warnings":[{"code":"soundtrack_fitted","message":"The 4.85 s soundtrack is cut to the 2.00 s clip.","param":"soundtrack"}]}
+W {"report":{"availableBytes":36000000000,"budgetBytes":96000000000,"date":817228848.120313,"externalBytes":0,"externalTenants":{},"gpuActiveBytes":38113768454,"gpuCacheBytes":2,"physFootprintBytes":40912547344,"residentBytes":36000000000,"residents":{"longcat-avatar-1.6":36000000000},"running":[],"transientReserveBytes":24000000000},"type":"memory"}
+PASS video.generate ran in 272.47 s (wall 272.47 s), 11 progress lines; outputs [{"path":"\/var\/folders\/2t\/n472rntx42g8s3bd3_xz7tg00000gn\/T\/gaea-plugin-check-326E3979-8E76-438E-AE1D-EFA3B02A4CD4\/spool\/job_check\/out\/video-0.mp4","name":"video","media_type":"video\/mp4"}]
+H {"id":"h4","type":"memory.query"}
+W {"re":"h4","report":{"availableBytes":36000000000,"budgetBytes":96000000000,"date":817228848.120557,"externalBytes":0,"externalTenants":{},"gpuActiveBytes":38113768454,"gpuCacheBytes":2,"physFootprintBytes":40910089744,"residentBytes":36000000000,"residents":{"longcat-avatar-1.6":36000000000},"running":[],"transientReserveBytes":24000000000},"type":"memory"}
+PASS memory report: worker says phys_footprint 40910089744 B; host read 40908877328 B now, peak 72076537216 B
+H {"id":"h5","type":"shutdown"}
+PASS shutdown: exit 0
+PASS session written to /Volumes/Satechi/Development/gaea-plugin-longcat-avatar/dist/check-session.gpp
+ALL PASS
+==> validate the session (tools/validate.py --transcript)
+OK
+==> control: the bare worker, outside its bundle, must not find a metallib
+control: the bare worker said hello, then: Failed to load the default metallib
+==> check passed
+
+[exited with code 0]

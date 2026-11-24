@@ -1,0 +1,11 @@
+PASS manifest com.xocialize.gaea.longcat-avatar 0.1.0, sha256 a8aa46542fb0…
+PASS signature: Developer ID, team CFZS6RXUCP, id com.xocialize.gaea.longcat-avatar, hardened runtime, requirement `anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU] = "CFZS6RXUC
+PASS launched gaea-longcat-avatar-worker with launchRequirement (team CFZS6RXUCP, developerID), pid 95839
+PASS hello after 360 ms
+PASS hello matches the verified manifest (plugin, models, engine, manifest_sha256)
+PASS prepared longcat-avatar-1.6 lane bf16 in 4.89 s
+PASS video.generate ran in 564.68 s (wall 564.68 s), 11 progress lines; outputs [{"path":"\/var\/folders\/2t\/n472rntx42g8s3bd3_xz7tg00000gn\/T\/gaea-plugin-check-4EF4DFBA-4B79-4730-8CA4-F725564F6D34\/spool\/job_check\/out\/video-0.mp4","media_type":"video\/mp4","name":"video"}]
+PASS memory report: worker says phys_footprint 41131290248 B; host read 41131290248 B now, peak 57682963912 B
+PASS shutdown: exit 0
+PASS session written to /Volumes/DEV_ARCHIVE/longcat-avatar-16/out/envelope-bf16.gpp
+ALL PASS
