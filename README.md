@@ -121,7 +121,7 @@ MIT), scaled down; `speech.wav` is synthetic speech from macOS `say`.
 
 ## Versions
 
-- longcat-avatar-mlx-swift 0.2.0, mlx-engine-swift 0.82.1 (contract 1.66.0), GaeaPluginKit 0.16.0.
+- longcat-avatar-mlx-swift 0.2.1, mlx-engine-swift 0.82.1 (contract 1.66.0), GaeaPluginKit 0.16.0.
 - mlx-swift: the fleet fork at 0.33.1 (upstream 0.33.0 with the split-head attention routes off, AB-D-0264).
 
 ## Licence

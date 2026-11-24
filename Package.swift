@@ -22,7 +22,7 @@ let package = Package(
         kitPath.map { .package(path: $0) }
             ?? .package(url: "https://github.com/xocialize-code/gaea-plugin-kit.git", from: "0.16.0"),
         longCatPath.map { .package(path: $0) }
-            ?? .package(url: "https://github.com/xocialize/longcat-avatar-mlx-swift.git", exact: "0.2.0"),
+            ?? .package(url: "https://github.com/xocialize/longcat-avatar-mlx-swift.git", exact: "0.2.1"),
         .package(url: "https://github.com/xocialize/mlx-engine-swift.git", from: "0.82.1"),
         // The fleet's mlx-swift fork at 0.33.1 (upstream 0.33.0 with the split-head attention routes off, AB-D-0264).
         // A root line naming ml-explore's URL is the same package identity and would bring the unpatched build back.

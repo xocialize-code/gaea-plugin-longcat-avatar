@@ -293,7 +293,7 @@ func model() -> ModelDefinition {
 }
 
 public let longCatAvatarPlugin = GaeaPluginDefinition(
-    id: "com.xocialize.gaea.longcat-avatar", version: "0.1.0", minGaea: "1.9.0", team: "CFZS6RXUCP",
+    id: "com.xocialize.gaea.longcat-avatar", version: "0.1.1", minGaea: "1.9.0", team: "CFZS6RXUCP",
     repo: "https://github.com/xocialize-code/gaea-plugin-longcat-avatar", title: "LongCat-Video-Avatar",
     summary: "LongCat-Video-Avatar 1.6 (Meituan, MIT): an audio-driven talking avatar. A first frame and a speech "
         + "soundtrack make a lip-synced clip of any length up to a minute, at 25 fps.",

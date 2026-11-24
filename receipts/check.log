@@ -2,23 +2,23 @@
 ==> generate manifest.json from the plugin's code
 ==> validate manifest.json (tools/validate.py --manifest)
 OK
-==> assemble longcat-avatar.gaeaplugin (com.xocialize.gaea.longcat-avatar 0.1.0)
+==> assemble longcat-avatar.gaeaplugin (com.xocialize.gaea.longcat-avatar 0.1.1)
 ==> sign: Developer ID Application: Dustin Nielson (CFZS6RXUCP), hardened runtime, timestamp
 ==> verify: codesign --verify --strict --deep, and the Developer ID requirement for team CFZS6RXUCP
 ==> zip
-d5ebae0a27963c53a6e04e609d5f86e67d92aab5cef64995efb137353e3e2e4c  longcat-avatar-0.1.0.gaeaplugin.zip
-/Volumes/Satechi/Development/gaea-plugin-longcat-avatar/dist/longcat-avatar-0.1.0.gaeaplugin.zip
+fc34636c40bd084dbd07ecb1a9c8ce5bf91a87ba1d8ac27faa6301d4f766c305  longcat-avatar-0.1.1.gaeaplugin.zip
+/Volumes/Satechi/Development/gaea-plugin-longcat-avatar/dist/longcat-avatar-0.1.1.gaeaplugin.zip
 ==> build gaea-plugin-check
 ==> hidden: /Volumes/Satechi/Development/gaea-plugin-longcat-avatar/.build
 ==> drive longcat-avatar.gaeaplugin over GPP
-PASS manifest com.xocialize.gaea.longcat-avatar 0.1.0, sha256 e8c346207366…
+PASS manifest com.xocialize.gaea.longcat-avatar 0.1.1, sha256 1cf0fe6c4f87…
 PASS signature: Developer ID, team CFZS6RXUCP, id com.xocialize.gaea.longcat-avatar, hardened runtime, requirement `anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and ce
-PASS launched gaea-longcat-avatar-worker with launchRequirement (team CFZS6RXUCP, developerID), pid 3345
-PASS hello after 480 ms
+PASS launched gaea-longcat-avatar-worker with launchRequirement (team CFZS6RXUCP, developerID), pid 7403
+PASS hello after 347 ms
 PASS hello matches the verified manifest (plugin, models, engine, manifest_sha256)
-PASS prepared longcat-avatar-1.6 lane bf16 in 223.16 s
-PASS video.generate ran in 339.88 s (wall 339.88 s), 11 progress lines; outputs [{"name":"video","path":"\/var\/folders\/2t\/n472rntx42g8s3bd3_xz7tg00000gn\/T\/gaea-plugin-check-D2406347-5D8F-4091-A80
-PASS memory report: worker says phys_footprint 40341728664 B; host read 40339303832 B now, peak 57757887776 B
+PASS prepared longcat-avatar-1.6 lane bf16 in 123.07 s
+PASS video.generate ran in 326.61 s (wall 326.61 s), 11 progress lines; outputs [{"media_type":"video\/mp4","path":"\/var\/folders\/2t\/n472rntx42g8s3bd3_xz7tg00000gn\/T\/gaea-plugin-check-900AC362-CF
+PASS memory report: worker says phys_footprint 40358915576 B; host read 40356490744 B now, peak 57718582656 B
 PASS shutdown: exit 0
 PASS session written to /Volumes/Satechi/Development/gaea-plugin-longcat-avatar/dist/check-session.gpp
 ALL PASS
